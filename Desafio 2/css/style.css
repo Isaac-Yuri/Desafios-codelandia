@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box-desconto{
+    background-color: #181818;
+    color: white;
+    padding: 13px 0;
+    text-align: center;
+}
+
+#marca {
+    font-weight: bold;
+    text-align: center;
+    padding: 13px 0;
+}
+
+#box-image {
+    background-image: url('https://www.fashionbeans.com/wp-content/uploads/2019/05/best-air-jordans.jpg');
+    padding: 20px;
+}
