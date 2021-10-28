@@ -16,8 +16,15 @@
             <p>Jordan Shoes</p>
         </div>
         <div id="box-image">
-            <h1>A melhor loja de Jordan</h1>
-            <p>O tênis Jordan é fruto de uma velha e forte <br> parceria entre Nike e o jogador Michael Jordan.</p>
+            <picture>
+                <source media="(max-width: 450px)" srcset="./images/image-jordan-red-mobile.jpg" type="image/jpg"> 
+                <source media="(max-width: 600px)" srcset="./images/image-jordan-red-original.jpg" type="image/jpg"> 
+                <img src="./images/image-jordan-red.jpg" alt="image-jordan">
+            </picture>
+            <div id="box-texto">
+                <h1>A melhor loja de Jordan</h1>
+                <p>O tênis Jordan é fruto de uma velha e forte <br> parceria entre Nike e o jogador Michael Jordan.</p>
+            </div> 
         </div>
     </header>
 </body>
